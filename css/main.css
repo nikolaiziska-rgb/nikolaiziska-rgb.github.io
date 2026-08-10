@@ -209,3 +209,31 @@ img {
     max-width: 35rem;
     height: auto;
 }
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.subscription-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.subscription-table th,
+.subscription-table td {
+    border: 1px solid #777777;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.subscription-table th {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .subscription-table th,
+    .subscription-table td {
+        padding: 0.5rem;
+    }
+}
