@@ -198,3 +198,14 @@ img {
         display: inline-block;
     }
 }
+.cafe-page {
+    width: 90%;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.cafe-page img {
+    width: 100%;
+    max-width: 35rem;
+    height: auto;
+}
