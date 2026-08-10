@@ -237,3 +237,27 @@ img {
         padding: 0.5rem;
     }
 }
+.cafe-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+}
+
+.cafe-gallery img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .cafe-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .cafe-gallery {
+        grid-template-columns: 1fr;
+    }
+}
