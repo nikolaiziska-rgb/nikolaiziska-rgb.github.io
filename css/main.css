@@ -261,3 +261,9 @@ img {
         grid-template-columns: 1fr;
     }
 }
+.responsive-embed {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 0;
+}
